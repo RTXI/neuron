@@ -4,10 +4,10 @@ HEADERS = neuron.h
 
 SOURCES = neuron.cpp \
           moc_neuron.cpp\
-          ../include/gen_sine.cpp\
-          ../include/gen_sine.h\
-          ../include/generator.cpp\
-          ../include/generator.h
+          gen_sine.cpp\
+          gen_sine.h\
+          generator.cpp\
+          generator.h
 
 ### Do not edit below this line ###
 

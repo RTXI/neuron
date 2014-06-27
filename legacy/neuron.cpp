@@ -18,7 +18,7 @@
 
 #include <neuron.h>
 #include <math.h>
-#include <QtGui>
+#include <qwhatsthis.h>
 
 /*
  * Model Functions
@@ -158,7 +158,8 @@ static size_t num_vars = sizeof(vars) / sizeof(DefaultGUIModel::variable_t);
 Neuron::Neuron(void) :
   DefaultGUIModel("Neuron", ::vars, ::num_vars)
 {
-  setWhatsThis("<p><b>Hodgkin-Huxley Neuron:</b><br>This module simulates a Hodgkin-Huxley neuron "
+  QWhatsThis::add(this,
+      "<p><b>Hodgkin-Huxley Neuron:</b><br>This module simulates a Hodgkin-Huxley neuron "
       "in real-time. It can be used in place of a biological cell to test algorithms.</p>");
   createGUI(vars, num_vars);
   /*
