@@ -21,7 +21,7 @@ Note that in RTXI 2.0 and subsequent releases, this module is separated from the
 3. G_Na_max - max. Na+ conductance density (mS/cm^2)
 4. E_Na - Na+ reversal potential (mV)
 5. G_K_max - max. K+ conductance density (mS/cm^2)
-6. E_K - k+ reversal potential (mV)
+6. E_K - K+ reversal potential (mV)
 7. G_L - leak channel conductance density (mS/cm^2)
 8. E_L - leak channel reversal potential (mV)
 9. Iapp_offset - offset current added to input (uA/cm^2)
