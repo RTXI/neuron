@@ -5,9 +5,11 @@
 
 ![HH Model Neuron GUI](neuron.png)
 
-This module is already included in RTXI by default as the “neuron” module but is provided here as a template for creating your own models. This is the classic Hodgkin-Huxley model neuron.
+<!--more-->
 
-Note that in RTXI 2.0 and subsequent releases, this module is separated from the default RTXI install. Users can add it if needed. 
+This is the classic Hodgkin-Huxley model neuron. To find information on the model, find some neuroscience book and open it or just use the internet. Here's the [wikipedia entry](https://en.wikipedia.org/wiki/Hodgkin%E2%80%93Huxley_model). 
+
+<!--more-->
 
 ####Input Channels
 1. input(0) - Iapp : applied current  (A)
