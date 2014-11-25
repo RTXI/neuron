@@ -3,7 +3,7 @@
 **Requirements:** None  
 **Limitations:** None  
 
-![HH Model Neuron GUI](/images/neuron.png)
+![HH Model Neuron GUI](neuron.png)
 
 This module is already included in RTXI by default as the “neuron” module but is provided here as a template for creating your own models. This is the classic Hodgkin-Huxley model neuron.
 
