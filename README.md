@@ -5,11 +5,11 @@
 
 ![HH Model Neuron GUI](neuron.png)
 
-<!--more-->
+<!--start-->
 
 This is the classic Hodgkin-Huxley model neuron. To find information on the model, find some neuroscience book and open it or just use the internet. Here's the [wikipedia entry](https://en.wikipedia.org/wiki/Hodgkin%E2%80%93Huxley_model). 
 
-<!--more-->
+<!--end-->
 
 ####Input Channels
 1. input(0) - Iapp : applied current  (A)
