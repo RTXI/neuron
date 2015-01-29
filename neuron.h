@@ -22,18 +22,14 @@ class Neuron : public DefaultGUIModel
 {
 
 public:
-
     Neuron(void);
     virtual ~Neuron(void);
-
     void execute(void);
 
 protected:
-
     void update(DefaultGUIModel::update_flags_t);
 
 private:
-
     void derivs(double *,double *);
     void solve(double,double *);
 
@@ -51,5 +47,4 @@ private:
     double E_L;
     double Iapp_offset;
     double rate;
-
 };
