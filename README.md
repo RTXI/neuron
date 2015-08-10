@@ -7,7 +7,7 @@
 
 <!--start-->
 
-This is the classic Hodgkin-Huxley model neuron. To find information on the model, find some neuroscience book and open it or just use the internet. Here's the [wikipedia entry](https://en.wikipedia.org/wiki/Hodgkin-Huxley_model). 
+This is the classic [Hodgkin-Huxley model neuron](https://en.wikipedia.org/wiki/Hodgkin-Huxley_model). For best results, make sure your rate of integration is a multiple of your real-time period (or vice versa). 
 
 <!--end-->
 
